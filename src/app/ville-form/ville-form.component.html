@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    
+  </head>
+  <body>
+    <div>
+        <h2>Ajouter une ville</h2>
+        <form (ngSubmit)="onSubmit()" #villeForm="ngForm">
+          <div class="form-group">
+            <label for="nomVille">Nom de la ville</label>
+            <input type="text" id="nomVille" name="nomVille" class="form-control" ngModel required>
+          </div>
+          <button type="submit" class="btn btn-primary">Ajouter</button>
+        </form>
+      </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
